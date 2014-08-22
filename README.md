@@ -1,37 +1,12 @@
-melonJS boilerplate
--------------------------------------------------------------------------------
+doublejumper
+===
 
-features :
-- video autoscaling
-- mobile optimized HTML/CSS
-- swiping disabled on iOS devices
-- debug Panel (if #debug)
-- distribution build
+The first jump kills enemies. The double jump kills you. Landing on a second enemy after killing a first enemy by jumping is fatal.
 
-## To run distribution
+## Build and run
+Run ```grunt && grunt connect```.
 
-To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
+---
+Copyright (C) 2014 Kevin Lee.
 
-    git clone https://github.com/melonjs/boilerplate.git
-
-Then in the cloned directory, simply run:
-
-    npm install
-
-To build:
-
-    grunt
-
-
-Running the game:
-
-	grunt connect	
-
-And you will have the boilerplate example running on http://localhost:8000
-
-
-Note that you may have to edit the file `Gruntfile.js` if you need to better dictate the order your files load in. Note how by default the game.js and resources.js are specified in a specific order.
-
--------------------------------------------------------------------------------
-Copyright (C) 2011 - 2013, Olivier Biot, Jason Oster
-melonJS is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
+melonJS, [melonJS-boilerplate](https://github.com/melonjs/boilerplate), and this project are licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
